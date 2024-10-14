@@ -3,16 +3,16 @@
 
 ## Instalación
 
-1. Asegúrate de tener [Node.js](https://nodejs.org) instalado.
-2. Ejecuta el siguiente comando para crear un nuevo proyecto en React:
+1. Tener [Node.js](https://nodejs.org) instalado.
+2. Ejecutar el siguiente comando para crear un nuevo proyecto en React:
    ```bash
    npx create-react-app my-react-app
    ```
-3. Entra en la carpeta del proyecto:
+3. Entrar en la carpeta del proyecto:
    ```bash
    cd my-react-app
    ```
-4. Inicia el servidor de desarrollo:
+4. Iniciar el servidor de desarrollo:
    ```bash
    npm start
    ```
