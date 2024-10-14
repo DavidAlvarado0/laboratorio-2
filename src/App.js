@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+
+import React, { useState } from 'react';
 import './App.css';
+import Header from './Header';
+import UserInfo from './UserInfo'; // Importar componente con props
 
 function App() {
+  const [contador, setContador] = useState(0);
+
+  const incrementar = () => {
+    setContador(contador + 1);
+  };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <p>Contador: {contador}</p>
+      <button onClick={incrementar}>Incrementar</button>
+      <UserInfo nombre="David Alvardo" edad={25} />
     </div>
   );
 }
