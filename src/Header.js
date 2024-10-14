@@ -4,7 +4,7 @@ import React from 'react';
 function Header() {
   return (
     <header>
-      <h1>Bienvenido a Mi Aplicación React</h1>
+      <h1>App React</h1>
     </header>
   );
 }
